@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\StudentManagementApp.Aplication\StudentManagementApp.Aplication.csproj" />
+    <ProjectReference Include="..\StudentManagementApp.Domain\StudentManagementApp.Domain.csproj" />
+    <ProjectReference Include="..\StudentManagementApp.Infrastucture\StudentManagementApp.Infrastucture.csproj" />
+  </ItemGroup>
+
+</Project>
